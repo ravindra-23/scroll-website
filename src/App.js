@@ -3,7 +3,7 @@ import GlobalStyles from "./styles/GlobalStyles";
 import { dark } from "./styles/Themes";
 import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
 import { useRef } from 'react'
-import { Home, About, Shop } from "./sections";
+import { Home, About, Shop, Footer } from "./sections";
 import 'locomotive-scroll/dist/locomotive-scroll.css'
 import { AnimatePresence } from "framer-motion";
 import ScrollTriggerProxy from "./components/ScrollTrigger";
@@ -37,6 +37,7 @@ function App() {
             <Home />
             <About />
             <Shop />
+            <Footer />
           </main>
         </AnimatePresence>
         </LocomotiveScrollProvider>
